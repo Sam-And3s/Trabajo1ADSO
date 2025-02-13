@@ -1,15 +1,15 @@
 Algoritmo ejercicio13
-	//	Escribe un algoritmo que calcule la temperatura de acuerdo con el número de
+	//	Escribe un algoritmo que calcule la temperatura de acuerdo con el nÃºmero de
 	//	sonidos emitidos por un grillo.
 	
 	Definir chillidosPorMinuto Como Entero
 	Definir temperatura Como Real
 	
-	Escribir "¡Hola, bienvenid@ a la calculadora de temperatura segun los chillidos por minuto de un grillo! Primero ingresa la cantidad de chillidos por minuto del grillo.";
+	Escribir "Â¡Hola, bienvenid@ a la calculadora de temperatura segun los chillidos por minuto de un grillo! Primero ingresa la cantidad de chillidos por minuto del grillo.";
 	Leer chillidosPorMinuto;
 	
-	temperatura <- (chillidosPorMinuto - 40)/7;
+	temperatura <- (((chillidosPorMinuto - 40)/4)+18)/1.8;
 	
-	Escribir "Dado que se registraron " chillidosPorMinuto " chillidos por minuto de un grillo, la temperatura es de " temperatura "C°";
+	Escribir "Dado que se registraron " chillidosPorMinuto " chillidos por minuto de un grillo, la temperatura es de " temperatura "CÂ°";
 	
 FinAlgoritmo
